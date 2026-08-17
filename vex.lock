@@ -1,0 +1,15 @@
+{
+    version = 2,
+    package = [
+        {
+            name = "wson",
+            version = "0.1.0",
+            source = "git",
+            git = "https://github.com/LunaStev/wson-wave.git",
+            tag = "v0.1.0",
+            commit = "ec71256c5c992522ecb95e1d60162b70764aec9a",
+            resolved = ".vex/deps/wson",
+            dependencies = []
+        }
+    ]
+}

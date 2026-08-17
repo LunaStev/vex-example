@@ -1,0 +1,11 @@
+import("wson::lib");
+
+fun main() {
+    var source_str: str = "{\n    name = \"Wave\",\n    enabled = true,\n    version = 0.2.1,\n    numbers = [1, 2, 3],\n    nested = {\n        value = null,\n    },\n}";
+
+    if (parse_wson(source_str)) {
+        println("Valid WSON");
+    } else {
+        println("Invalid WSON");
+    }
+}
